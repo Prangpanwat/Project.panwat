@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /* Body styles */
@@ -49,7 +50,7 @@ nav ul li a {
 }
 
 .pictures img {
-    max-width: 20%;
+    max-width: 35%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
@@ -95,6 +96,112 @@ nav ul li a {
     margin-top: 20px;
   
 }
+.picture {
+    text-align: center;
+}
+
+
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7; /* สีพื้นหลัง */
+}
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* ขนาดตัวอักษรใหญ่ขึ้น */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem; /* ขนาดตัวอักษรเล็กลง */
+    font-weight: bold; /* หนาขึ้น */
+}
+
+/* Picture styles */
+.pictures {
+    text-align: center;
+}
+
+.pictures img {
+    max-width: 35%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้รูปภาพ */
+}
+
+/* Logo styles */
+.logo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #030746;
+    text-transform: uppercase; /* แปลงเป็นตัวอักษรใหญ่ */
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+.picture {
+    text-align: center;
+}
+
+.picture img {
+    max-width:35%;
+    height: auto;
+    border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้รูปภาพ */
+    transition: transform 0.3s ease;
+}
+
+/* Picture adjustments */
+.pictures {
+    text-align: center;
+    margin-top: 50px; /* เพิ่มระยะห่างด้านบนเพื่อเป็นพื้นที่สำหรับรูปภาพแรก */
+    transition: margin-top 0.5s ease; /* เพิ่มเอฟเฟกต์การเคลื่อนไหวที่นุ่มนวล */
+}
+
+.about {
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
 .picture {
     text-align: center;
 }
