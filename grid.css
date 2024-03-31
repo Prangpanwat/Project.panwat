@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 .pictures img {
-    max-width: 35%;
+    max-width: 30%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
@@ -80,7 +80,7 @@ nav ul li a {
 }
 
 .picture img {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้รูปภาพ */
@@ -153,7 +153,7 @@ nav ul li a {
 }
 
 .pictures img {
-    max-width: 35%;
+    max-width: 70%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
@@ -204,4 +204,129 @@ nav ul li a {
 
 .picture {
     text-align: center;
+}
+.content {
+    margin-top: 20px; /* ปรับค่านี้เพื่อเพิ่มหรือลดระยะห่างระหว่างเนื้อหากับภาพ */
+}
+
+.content p {
+    margin-bottom: 10px; /* ปรับค่านี้เพื่อเพิ่มหรือลดระยะห่างระหว่างย่อหน้า */
+}
+/* เรียงรูปภาพแนวตั้ง */
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* กำหนดขนาดของรูปภาพ */
+.pictures img {
+    width: 600px;
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของรูปภาพ */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(11, 218, 4, 0.);
+}
+
+.guessField {
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.guessSubmit {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.resultParas {
+    margin-top: 40px;
+}
+
+.guesses {
+    margin: 10px;
+}
+
+.lastResult {
+    margin: 10px;
+}
+
+.lowOrHi {
+    margin: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* การแสดงภาพใน grid layout */
+    gap: 20px; /* ระยะห่างระหว่างภาพ */
+    padding: 20px;
+}
+
+.picture img {
+    max-width: 100%; /* ความกว้างของภาพไม่เกินขอบเขตของพื้นที่ที่ให้ */
+    height: auto; /* สูงของภาพปรับอัตโนมัติตามสัดส่วน */
+    border-radius: 10px; /* ทำให้มีมุมโค้ง */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ภาพ */
+}
+
+.picture a {
+    text-decoration: none; /* เอาเส้นใต้ออก */
+    color: inherit; /* ให้สีของลิงก์เป็นสีเดียวกับข้อความ */
+    display: flex; /* ทำให้เนื้อหาในลิงค์เรียงต่อกันในแนวตั้ง */
+    flex-direction: column; /* เรียงเนื้อหาในลิงค์ให้อยู่ในแนวตั้ง */
+    align-items: center; /* จัดให้เนื้อหาอยู่ตรงกลางของลิงค์ */
+}
+
+.picture a:hover img {
+    transform: scale(1.1); /* ขยายขนาดของภาพเมื่อเม้าส์ hover */
+    transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงอย่างนุ่มนวล */
+}
+
+.picture a .caption { 
+        font-weight: bold; /* ทำให้ข้อความตัวหนา */
+        font-size: 16px; /* ขนาดฟ้อนใหญ่ขึ้น */
+        margin-top: 10px;
 }
