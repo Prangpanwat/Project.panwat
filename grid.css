@@ -12,7 +12,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f7f7f7; /* สีพื้นหลัง */
+    background-color: #f7f7f7; 
 }
 
 /* Header styles */
@@ -25,7 +25,7 @@ header {
 
 header h1 {
     margin-bottom: 20px;
-    font-size: 2.5rem; /* ขนาดตัวอักษรใหญ่ขึ้น */
+    font-size: 2.5rem; 
 }
 
 nav ul {
@@ -40,8 +40,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem; /* ขนาดตัวอักษรเล็กลง */
-    font-weight: bold; /* หนาขึ้น */
+    font-size: 1.2rem; 
+    font-weight: bold; 
 }
 
 /* Picture styles */
@@ -53,8 +53,8 @@ nav ul li a {
     max-width: 30%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้รูปภาพ */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* Logo styles */
@@ -63,7 +63,7 @@ nav ul li a {
     font-size: 2.5rem;
     font-weight: bold;
     color: #030746;
-    text-transform: uppercase; /* แปลงเป็นตัวอักษรใหญ่ */
+    text-transform: uppercase; 
 }
 
 /* Content styles */
@@ -82,14 +82,14 @@ nav ul li a {
 .picture img {
     max-width: 30%;
     height: auto;
-    border-radius: 8px; /* เพิ่มขอบโค้งให้กับรูปภาพ */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้รูปภาพ */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease;
 }
 .pictures {
     text-align: center;
-    margin-top: 50px; /* เพิ่มระยะห่างด้านบนเพื่อเป็นพื้นที่สำหรับรูปภาพแรก */
-    transition: margin-top 0.5s ease; /* เพิ่มเอฟเฟกต์การเคลื่อนไหวที่นุ่มนวล */
+    margin-top: 50px; 
+    transition: margin-top 0.5s ease; 
 }
 .about {
     margin-bottom: 50px;
@@ -103,7 +103,7 @@ nav ul li a {
 
 /* styles.css */
 
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
