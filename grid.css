@@ -306,27 +306,27 @@ nav ul li {
 }
 
 .picture img {
-    max-width: 100%; /* ความกว้างของภาพไม่เกินขอบเขตของพื้นที่ที่ให้ */
-    height: auto; /* สูงของภาพปรับอัตโนมัติตามสัดส่วน */
-    border-radius: 10px; /* ทำให้มีมุมโค้ง */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ภาพ */
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .picture a {
-    text-decoration: none; /* เอาเส้นใต้ออก */
-    color: inherit; /* ให้สีของลิงก์เป็นสีเดียวกับข้อความ */
-    display: flex; /* ทำให้เนื้อหาในลิงค์เรียงต่อกันในแนวตั้ง */
-    flex-direction: column; /* เรียงเนื้อหาในลิงค์ให้อยู่ในแนวตั้ง */
-    align-items: center; /* จัดให้เนื้อหาอยู่ตรงกลางของลิงค์ */
+    text-decoration: none; 
+    color: inherit; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .picture a:hover img {
-    transform: scale(1.1); /* ขยายขนาดของภาพเมื่อเม้าส์ hover */
-    transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงอย่างนุ่มนวล */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
 }
 
 .picture a .caption { 
-        font-weight: bold; /* ทำให้ข้อความตัวหนา */
-        font-size: 16px; /* ขนาดฟ้อนใหญ่ขึ้น */
+        font-weight: bold; 
+        font-size: 16px; 
         margin-top: 10px;
 }
